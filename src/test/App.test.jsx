@@ -4,7 +4,8 @@ import App from '../App';
 describe('App Component', () => {
   it('renders the App', () => {
     render(<App />);
-    expect(screen.getByText('Vite + React')).toBeInTheDocument();
+
+    expect(screen.getByText('Fin Experiment')).toBeInTheDocument();
   });
 
   it.todo('renders the data from the API', () => {
@@ -13,5 +14,4 @@ describe('App Component', () => {
 
   it.todo('renders an error if the API call fails', () => {
   });
-  
 });
