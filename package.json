@@ -7,8 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "test": "vitest"
+    "lint:fix": "npm run lint -- --fix",
+    "test": "vitest",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.5",
