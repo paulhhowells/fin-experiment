@@ -1,5 +1,9 @@
 # Fin Experiment
 
+## API
+
+https://finnhub.io/docs/api/earnings-calendar
+
 ## Created using React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
